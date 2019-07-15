@@ -25,3 +25,9 @@
 Примечание: 
 1. Дизайн не имеет значение
 2. Плюсом будет если будет использован bootstrap 4 + какой либо фреймворк (angular, react, vue)
+
+## Решение
+
+MVC, Razor, Sqlite, Timer
+
+предлагается скачать архив https://github.com/shaneshka/todo/blob/master/todo.rar и запустить .exe
