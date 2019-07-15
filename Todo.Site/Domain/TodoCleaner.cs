@@ -30,13 +30,6 @@ namespace Todo.Site.Domain
 
         private void Cleaner(object state)
         {
-            var r = Task.Run(async () =>
-            {
-                var t = await _context.TodoItems.ToArrayAsync();
-
-            });
-            r.Wait();
-
             var items = _context.TodoItems.Where(x =>
                 x.Expire.HasValue && x.Created.HasValue &&
                 x.Created.Value.AddMilliseconds(x.Expire.Value.TotalMilliseconds) <= DateTime.Now).ToArray();
