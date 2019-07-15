@@ -28,6 +28,6 @@
 
 ## Решение
 
-MVC, Razor, SqlLite, Timer
+MVC, Razor, Sqlite, Timer
 
 предлагается скачать архив https://github.com/shaneshka/todo/blob/master/todo.rar и запустить .exe
